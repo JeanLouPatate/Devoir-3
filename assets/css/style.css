@@ -1,0 +1,39 @@
+header {
+    background-color: #17abb3;
+}
+
+.cv {
+    width: 1160px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+body{
+    background-color: #e3e3e3;
+}
+
+
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url('/fonts/raleway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+.photocv {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 30px;
+}
+.info {
+    display: flex;
+}
