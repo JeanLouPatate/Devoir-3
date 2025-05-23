@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    background: #f5f5f5;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cv-container {
+    max-width: 1160px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/raleway.woff2') format('woff2'),
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/raleway.woff2') format('woff2'),
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Utilisation */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: #14aeb2;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    text-align: end;
+}
+h1, h2, h3, h4, h5 {
+    font-family: "Lato", sans-serif;
+}
+
+.profile-pic {
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    text-align: left;
+    cursor: zoom-in;
+}
+
+.title-info {
+    padding-left: 320px;
+    text-align: center;
+}
+
+
+.contact {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    padding-left: 120px;
+    line-height: 1.6;
+}
+
+
+.contact i {
+    margin-right: 5px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.mailto::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f0e0";
+    /* enveloppe */
+    color: white;
+    margin-right: 8px;
+
+}
+
+.adresse::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f015";
+    /* maison */
+    color: white;
+    margin-right: 8px
+}
+
+.telephone::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f095";
+    /* téléphone */
+    color: white;
+    margin-right: 8px;
+}
+
+.permis::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f1b9";
+    /* voiture */
+    color: white;
+    margin-right: 8px;
+
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.droite {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.droite h3 {
+    margin-bottom: 10px;
+    color: #14aeb2;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+.item span {
+    float: right;
+    font-weight: normal;
+    color: #14aeb2;
+}
+
+.item p {
+    margin: 5px 0 10px;
+    font-size: 14px;
+    color: #444;
+}
+
+.gauche {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f5f5f5;
+    width: 280px;
+}
+
+.nopuce {
+    list-style: none;
+    padding-left: 25px;
+}
+
+.li1 {
+    font-weight: bold;
+}
+
+.gauche h3 {
+    padding-left: 5px;
+    color: #14aeb2;
+}
+
+ul li::marker {
+    color: #14aeb2;
+}
+
+.stars,
+.stars2,
+.stars3,
+.stars4 {
+    float: right;
+    padding-right: 20px;
+}
+
+.li1 {
+    line-height: 1.6;
+}
+
+.item1 {
+    display: flex;
+}
+
+.lang {
+    text-align: start;
+    font-weight: bold;
+    line-height: 1.6;
+
+}
+
+.qualities,
+.hobbys {
+    line-height: 1.2;
+}
+
+.notion {
+    text-align: end;
+    line-height: 1.6;
+    margin-left: 20px;
+
+}
+
+.stars {
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 15px;
+    letter-spacing: 3px;
+    color: #14aeb2;
+    text-decoration: none;
+}
+
+.stars::before {
+    content: "★★★★☆";
+    display: block;
+    color: #14aeb2;
+    text-decoration: none;
+}
+
+.stars2 {
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 15px;
+    letter-spacing: 3px;
+    color: #14aeb2;
+}
+
+.stars2::before {
+    content: "★★★★☆";
+    display: block;
+    color: #14aeb2;
+}
+
+.stars3 {
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 15px;
+    letter-spacing: 3px;
+    color: #14aeb2;
+}
+
+.stars3::before {
+    content: "★★☆☆☆";
+    display: block;
+    color: #14aeb2;
+}
+
+.stars4 {
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 15px;
+    letter-spacing: 3px;
+    color: #14aeb2;
+}
+
+.stars4::before {
+    content: "★☆☆☆☆";
+    display: block;
+    color: #14aeb2;
+}
+.item{
+overflow: hidden;
+margin: 2px;
+}
+
+.item:hover {
+    background-color: #c6c4c4;
+    /* effet grisé */
+     transition: background-color 0.3s ease;
+}
+
+footer {
+    background-color: #14aeb2;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+.social-buttons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.social-buttons .btn {
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.social-buttons:hover{
+    transition: opacity 0.3s ease;
+    opacity: 0.6;
+}
+
+.linkedin {
+    background: #14aeb2;
+}
+
+.github {
+    background: #14aeb2;
+}
+
+.instagram {
+    background: #14aeb2;
+}
