@@ -7,21 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="cv-container">
         <header>
-            <div class="header-content">
-                <img src="./assets/img/Photo CV.jpg" alt="Photo de profil" class="profile-pic">
-                <div class="title-info">
-                    <h1>Louis COMINGES</h1>
-                    <h2>Développeur Web et Web Mobile</h2>
-                    <div class="contact">
-                        <div><a href="mailto:email@example.com">Mail</a></div>
-                        <div><a href="https://maps.google.com/?q=adresse" target="_blank">Adresse</a></div>
-                        <div></i> Téléphone</div>
-                        <div></i> Permis B</div>
+            <a href="./assets/img/Photo CV.jpg" target="_blank">
+            <img src="./assets/img/Photo CV.jpg" alt="Photo de profil" class="profile-pic">
+            </a>
+            <div class="title-info">
+                <h1>Louis COMINGES</h1>
+                <h2>Développeur Web et Web Mobile</h2>
+                <div class="contact">
+                    <div class="mail">
+                        <div class="mailto"><a href="mailto:email@example.com">Mail</a></div>
+                        <div class="adresse"><a href="https://maps.google.com/?q=adresse" target="_blank">Adresse</a>
+                        </div>
+                    </div>
+                    <div class="tel">
+                        </i><a class="telephone" href="tel:+33678984522">Téléphone</a> 
+                        <div class="permis"></i> Permis B</div>
                     </div>
                 </div>
             </div>
@@ -34,13 +45,13 @@
                 <section>
                     <h3>Compétences</h3>
                     <ul class="nopuce">
-                        <li>HTML <div class="stars"></div>
+                        <li class="li1">HTML <div class="stars"></div>
                         </li>
-                        <li>CSS <div class="stars2"></div>
+                        <li class="li1">CSS <div class="stars2"></div>
                         </li>
-                        <li>Javascript <div class="stars3"></div>
+                        <li class="li1">Javascript <div class="stars3"></div>
                         </li>
-                        <li>PHP <div class="stars4"></div>
+                        <li class="li1">PHP <div class="stars4"></div>
                         </li>
                     </ul>
                 </section>
@@ -48,27 +59,39 @@
                     <h3>Langues</h3>
                     <ul class="nopuce">
                         <div class="item1">
-                            <li>Français<span>Langue maternelle</span></li>
-                            <li>Anglais<span>Professionnel</span></li>
-                            <li>Allemand<span>Notions</span></li>
+                            <div class="lang">
+                                <li>Français</li>
+                                <li>Anglais</li>
+                                <li>Allemand</li>
+                            </div>
+                            <div class="notion">
+                                <li>Langue maternelle</li>
+                                <li>Professionnel</li>
+                                <li>Notions</li>
+                            </div>
                         </div>
                     </ul>
                 </section>
                 <section>
                     <h3>Qualités</h3>
                     <ul>
-                        <li>Esprit d’équipe</li>
-                        <li>Autonomie</li>
-                        <li>Organisation</li>
-                        <li>Créativité</li>
+                        <div class="qualities">
+                            <li>Esprit d’équipe</li>
+                            <li>Autonomie</li>
+                            <li>Organisation</li>
+                            <li>Créativité</li>
+                        </div>
                     </ul>
                 </section>
                 <section>
                     <h3>Centres d’intérêt</h3>
                     <ul>
-                        <li>Yoga</li>
-                        <li>Tennis</li>
-                        <li>Écologie</li>
+                        <div class="hobbys">
+                            <li>Football</li>
+                            <li>Poker</li>
+                            <li>Jardinage</li>
+                            <li>Jeux vidéos</li>
+                        </div>
                     </ul>
                 </section>
             </section>
@@ -88,44 +111,48 @@
                     <h3>Formations</h3>
                     <hr>
                     <div class="item">
-                        <strong>Titre Professionnel DWWM</strong><span>2023/2024</span>
+                        <strong>Titre Professionnel DWWM</strong><span>2025/2026</span>
                         <p>Centre Européen de Formation</p>
                     </div>
                     <div class="item">
-                        <strong>Remise à Niveau – Métiers du numérique</strong><span>Juin 2023 – Septembre 2023</span>
-                        <p>École de la Deuxième Chance</p>
+                        <strong>Licence Commerce Vente Marketing CVM</strong><span>2020</span>
+                        <p>ESUPEC</p>
                     </div>
                     <div class="item">
-                        <strong>Baccalauréat</strong><span>1983</span>
-                        <p>Lycée Général</p>
+                        <strong>BTS Négociation Relation Client NRC</strong><span>2018</span>
+                        <p>Lycée Notre Dame du Roc</p>
                     </div>
                 </section>
                 <section>
                     <h3>Stages</h3>
                     <hr>
                     <div class="item">
-                        <strong>Gestionnaire de paye</strong><span>Mars 2022 – Avril 2022</span>
-                        <p>Nom de la société</p>
+                        <strong>Développeur web</strong><span>Janvier 2024</span>
+                        <p>Info Conception</p>
                     </div>
                     <div class="item">
-                        <strong>Agent d’accueil</strong><span>Janvier 2021 – Février 2021</span>
-                        <p>Nom de la société</p>
+                        <strong>Chargé de référencement SEO/SEA</strong><span>Janvier 2024</span>
+                        <p>Info Conception</p>
+                    </div>
+                    <div class="item">
+                        <strong>Commercial</strong><span>Mars 2019 – Avril 2019</span>
+                        <p>OTIS</p>
                     </div>
                 </section>
                 <section>
                     <h3>Expérience professionnelle</h3>
                     <hr>
                     <div class="item">
-                        <strong>Agent d’accueil</strong><span>Mars 2021 – Juillet 2021</span>
-                        <p>Nom de la société</p>
+                        <strong>Agent de prouction</strong><span>2024 - 2025</span>
+                        <p>Sodebo</p>
                     </div>
                     <div class="item">
-                        <strong>Chauffeur - Livreur</strong><span>Septembre 2021 – Décembre 2021</span>
-                        <p>Transport Nords & Fils</p>
+                        <strong>Commercial BtoB</strong><span>2018 - 2023</span>
+                        <p>La Pierrière</p>
                     </div>
                     <div class="item">
-                        <strong>Préparateur de commandes</strong><span>Janvier 2000 – Septembre 2000</span>
-                        <p>Le Roi des Pâtes</p>
+                        <strong>Livreur</strong><span>2016 - 2018</span>
+                        <p>Transport Mallard</p>
                     </div>
                 </section>
             </section>
